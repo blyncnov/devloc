@@ -1,24 +1,40 @@
-# README
+## Devloc
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Fullstack Web Application , created by Taiwo Boluwatife [`Blyncnov`](https://blyncnov.com/).
 
-Things you may want to cover:
+```bash
+A Webapp for Personality
+# share with us
+Devloc
+```
 
-* Ruby version
+## Learn More Devloc
 
-* System dependencies
+This `Project` is currently under development .
 
-* Configuration
+## Demo
 
-* Database creation
+Live Site URl : [devloc](https://devloc.vercel.app)
 
-* Database initialization
+## My Process
 
-* How to run the test suite
+I started this `Project` by bootraping Ruby on Rails and then installing sass gem ...
 
-* Services (job queues, cache servers, search engines, etc.)
+## Devloc Was Built With
 
-* Deployment instructions
+- HTML/CSS
+- Vanilla Javascript
+- Fly.io
+- Devise gem
+- Ruby On Rails
+- SCSS Module
 
-* ...
+## Time - Total development process
+
+- April 5 - till date
+
+## Developer Information
+
+- Website [`Blyncnov`](https://pro-blyncnov.vercel.app).
+- Twitter [`@jeremytechie`](https://twitter.com/jeremytechie).
+- Linkedin [`Taiwo Boluwatife`](https://linkedin.com/in/blyncnov).
