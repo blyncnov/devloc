@@ -1,0 +1,18 @@
+<h1>Devloc dashboard</h1>
+
+<% if user_signed_in?%>
+
+<h4>You are logged in</h4>
+<p>Your Email Address : <%= current_user.email %></p>
+
+<%= button_to "Logout", destroy_user_session_path, method: :delete %>
+
+<%else%>
+
+<li><%= link_to 'Sign In', new_user_session_path %></li>
+<li><%= link_to 'Sign Up', new_user_registration_path %></li>
+
+<h4>Alaye go login jae</h4>
+
+<%end%>
+

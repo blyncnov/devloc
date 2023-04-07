@@ -1,0 +1,100 @@
+.auth_section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0 50px 0;
+  min-height: 100vh;
+  background-color: #131116;
+
+  .auth_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .auth_row {
+      width: 100%;
+      max-width: 400px;
+
+      .auth_box {
+        width: 100%;
+        max-width: 450px;
+        padding: 50px 1.4em;
+        border-radius: 2px;
+        background-color: white;
+
+        h1 {
+          text-align: center;
+
+          a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #131116;
+          }
+        }
+
+        p {
+          line-height: 1.5;
+          text-align: center;
+          margin: 1em 0;
+        }
+
+        .auth_form {
+          margin-top: 30px;
+          display: flex;
+          gap: 20px;
+          flex-direction: column;
+
+          .group_field {
+            display: flex;
+            gap: 8px;
+            flex-direction: column;
+
+            input {
+              width: 100%;
+              font-size: 14px;
+              font-weight: 400;
+              padding: 14px .4em;
+              display: block;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              width: 100%;
+              border-radius: 2px;
+              color: #131116;
+              border: 1px solid #3e393942;
+
+
+              &:active {
+                background-color: #F6F9FE;
+              }
+            }
+
+            button {
+              color: white !important;
+              width: 100%;
+            }
+          }
+        }
+
+        .grouped_auth_option {
+          margin: 1.5em 0;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: blue;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
