@@ -14,7 +14,7 @@ This `Project` is currently under development .
 
 ## Demo
 
-Live Site URl : [devloc](https://devloc.vercel.app)
+Live Site URl : [devloc](https://devloc.fly.dev)
 
 ## My Process
 
