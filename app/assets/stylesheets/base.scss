@@ -68,45 +68,11 @@ input[type="submit"] {
     appearance: none;
     cursor: pointer;
     box-shadow: 0 5px 15px 0 rgba(37, 85, 152, 0.15) !important;
-    background-color: #0b4296;
+    background-color: #0d021c;
     border-width: 1.5px;
     border-style: solid;
-    border-color: #0b4296 !important;
+    border-color: #0d021c !important;
     transition: all 0.2s ease-in;
-}
-
-#path_line {
-    position: relative !important;
-}
-
-.path_css {
-    height: 60px;
-    position: absolute;
-    top: -65px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #0b4296;
-}
-
-.fc .fc-button .fc-icon {
-    color: #ffffff !important;
-}
-
-.fc-direction-ltr .fc-button-group>.fc-button:not(:first-child),
-.fc-direction-ltr .fc-button-group>.fc-button:not(:last-child) {
-    background-color: #0b4296 !important;
-}
-
-.fc .fc-button-primary:disabled {
-    color: #ffffff !important;
-    border: none;
-    background-color: grey !important;
-}
-
-.fc .fc-button:not(:disabled) {
-    color: #ffffff !important;
 }
 
 .devloc_alert {
@@ -131,7 +97,7 @@ input[type="submit"] {
 }
 
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .devloc_alert {
         max-width: 80%;
     }
